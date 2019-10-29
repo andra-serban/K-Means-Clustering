@@ -1,0 +1,18 @@
+TASK 1:
+- Am citit din fisier folosind dlmread si load.
+TASK 2:
+- Pentru alegerea centroizilor initiali am ales random linii din matricea cu 
+coordonate points, asigurandu-ma ca nu se suprapun.
+- Pentru fiecare punct am calculat distanta pana la fiecare centroid. Pentru 
+centroidul care se afla la distanta minima am adunat coordonatele punctului si 
+am marit numarul de puncte ce fac parte din clusterul centroidului. Calculez 
+noile coorodnate ale centroidului.
+TASK 3:
+- Aflu fata de care centroid este mai aproape punctul si il reprezint
+folosindu-ma de vectorul de culori.
+TASK 4:
+- Petru fiecare punct am determinat distanta minima pana la centroizi si am 
+adunat-o la cost.
+TASK 5:
+- Folosind functiile clustering_pc si compute_cost_pc am determinat costul 
+pentru fiecare numar de centroizi.
